@@ -30,11 +30,12 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [
-        "8000-poleshka-djangoblog-y94a0skcqy0.ws.codeinstitute-ide.net",
-        "https://*.codeinstitute-ide.net/",
-        "https://*.herokuapp.com",
-        'django-world1-516fbdd073be.herokuapp.com'
-        "localhost"
+        '8000-poleshka-djangoblog-y94a0skcqy0.ws.codeinstitute-ide.net',
+        'django-world1-516fbdd073be.herokuapp.com',
+        'https://*.codeinstitute-ide.net/',
+        'https://*.herokuapp.com', 
+        'localhost',
+        '127.0.0.1'
         ]
 
 
