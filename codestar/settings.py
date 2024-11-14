@@ -28,10 +28,14 @@ SECRET_KEY = ("PJ9KJAvj7U")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = [
         "8000-poleshka-djangoblog-y94a0skcqy0.ws.codeinstitute-ide.net",
         "https://*.codeinstitute-ide.net/",
-        "https://*.herokuapp.com"]
+        "https://*.herokuapp.com",
+        'django-world1-516fbdd073be.herokuapp.com'
+        "localhost"
+        ]
 
 
 # Application definition
@@ -101,6 +105,11 @@ else:
 # DATABASES = {
 #     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 # }
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.codeinstitute-ide.net/',
+    'https://*.herokuapp.com']
 
 
 # Password validation
